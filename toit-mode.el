@@ -1,5 +1,5 @@
 (defconst toit--font-lock-defaults
-  `((("\\(import|task|class|static|throw|catch|return|if\\)" 1 font-lock-keyword-face)
+  `((("\\(import|task|abstract|implements|extends|class|static|throw|catch|return|if\\)" 1 font-lock-keyword-face)
      ("//.*" 0 font-lock-comment-face t)
      ("\\([a-zA-Z_][a-zA-Z0-9_-]*\\)\\([. a-zA-Z0-9/>?_-]*\\):$" 1 font-lock-function-name-face)
      ("/\\([.a-zA-Z0-9?]+\\):?" 1 font-lock-type-face)
